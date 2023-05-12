@@ -20,11 +20,15 @@
      <div>
       <h4>
        <span>{{ medecin["nom"] }} - {{ medecin["profession"] }}</span>
-       {% if medecin["doctolib"] != "" %}
-        <a href="https://www.doctolib.fr/{{ medecin['doctolib'] }}/booking" target="_blank">Prendre rendez-vous sur Doctolib</a>
-       {% endif %}
       </h4>
-      <p>{{ medecin["bio"] }}</p>
+      <span>
+       <a href="tel:{{ medecin['telephone'] }}">{{ medecin['telephone'] }}</a>
+       {% if medecin["doctolib"] != "" %}
+        &nbsp;-&nbsp; 
+        <a href="https://www.doctolib.fr/{{ medecin['doctolib'] }}/booking" target="_blank">Doctolib</a>
+       {% endif %}
+      </span>
+      <p>{{ medecin["bio"] | replace("\n", "<br />") | safe }}</p>
      </div>
     </div>
    {% endif %}

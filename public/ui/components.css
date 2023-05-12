@@ -88,13 +88,14 @@ a[target="_blank"]::after {
 #biographies > .bio > div:nth-child(1) {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
     width: 200px;
 }
 
 #biographies > .bio > div:nth-child(1) > img {
-    height: 300px;
+    max-height: 300px;
+    max-width: 200px;
 }
 
 #biographies > .bio > div:nth-child(2) {
@@ -103,10 +104,19 @@ a[target="_blank"]::after {
 
 #biographies > .bio > div:nth-child(2) > h4 {
     display: flex;
+    margin: 0;
 }
 
 #biographies > .bio > div:nth-child(2) > h4 > span {
     flex-grow: 1;
+}
+
+#biographies > .bio > div:nth-child(2) > span {
+    color: #606c38;
+}
+
+#biographies > .bio > div:nth-child(2) > span > a {
+    color: #606c38;
 }
 
 .center {

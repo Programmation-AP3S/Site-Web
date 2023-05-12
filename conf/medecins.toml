@@ -27,7 +27,10 @@ nom = "Mme BRUNEAU L'HOMEL Morgane"
 profession = "Sage-femme"
 telephone = "07 86 66 49 83"
 doctolib = "sage-femme/verdun-sur-le-doubs/morgane-bruneau-l-homel"
-bio = ""
+bio = """
+La sage-femme est une spécialiste de la grossesse. Elle surveille le travail et pratique l'accouchement eutocique (l'accouchement normal). Elle dispense aussi les soins nécessaires à la mère et au nouveau-né et conseille les femmes sur l'allaitement et la contraception.
+
+Pour le monitoring foetal, le retour à domicile et la préparation à la naissance en piscine, vous pouvez me joindre au: 07 86 66 49 83."""
 maison = "verdun"
 
 [dr_chambefort_cecile]
@@ -35,7 +38,7 @@ nom = "Dr CHAMBEFORT Cécile"
 profession = "Médecin généraliste"
 telephone = "03 85 98 10 51"
 doctolib = "medecin-generaliste/gergy/cecile-chambefort"
-bio = ""
+bio = "Le médecin généraliste reçoit les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé, frottis). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin. Téléconsultations possibles."
 maison = "gergy"
 
 [mme_changarnier_betty]
@@ -75,7 +78,7 @@ nom = "Dr DESCHARMES Benoit"
 profession = "Médecin généraliste"
 telephone = "03 85 98 10 51"
 doctolib = "medecin-generaliste/sassenay/benoit-descharmes"
-bio = ""
+bio = "Le médecin généraliste reçoit les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin."
 maison = "gergy"
 
 [dr_descharmes_carole]
@@ -83,7 +86,10 @@ nom = "Dr DESCHARMES Carole"
 profession = "Médecin généraliste"
 telephone = "03 85 98 10 51"
 doctolib = "medecin-generaliste/sassenay/carole-descharmes"
-bio = ""
+bio = """
+Le médecin généraliste reçoit les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin.
+
+Pour toutes consultations de médecine esthétique, merci de contacter directement le secrétariat de 8h à 12h au 03 85 98 10 51."""
 maison = "gergy"
 
 [mme_dubrulle_laurenne]
@@ -171,7 +177,14 @@ nom = "Mr MANFROID Tifenn"
 profession = "Médecin généraliste"
 telephone = "03 85 91 51 44"
 doctolib = "medecin-generaliste/allerey-sur-saone/tifenn-manfroid"
-bio = ""
+bio = """
+Le médecin généraliste reçoit les enfants et les adultes pour tous types de soins médicaux généraux (consultation, contrôle annuel, vaccination, bilan de santé). Il assure également un suivi des patients dans le temps et les oriente vers des médecins spécialistes en cas de besoin.
+
+Présentation de l'établissement
+Nouveaux horaires d'ouvertures du standard téléphonique :
+Lundi au vendredi : 9h0 à 11h puis 17h à 19h.
+
+Adresse mail : cmverdunsurledoubs@orange.fr."""
 maison = "verdun"
 
 [mr_maniere_florent]
