@@ -1,0 +1,33 @@
+{% extends "templates/page.html" %}
+{% block page_name %}
+ {{ professions[code]["nom"] }}
+{% endblock %}
+{% block page_description %}
+ {{ professions[code]["nom"] }} dans l'AP3S
+{% endblock %}
+{% block page_canonical %}
+ build/professions/{{ code }}.html
+{% endblock %}
+
+{% block content %}
+ {% for medecin in liste_medecins %}
+  {% if medecin["profession"] in professions[code]["codes"] %}
+   <div id="biographies">
+    <div class="bio">
+     <div>
+      <img src="public/images/personnel/{{ medecin['nom'] }}.jpg" alt="Photo de {{ medecin['nom'] }}" />
+     </div>
+     <div>
+      <h4>
+       <span>{{ medecin["nom"] }} - {{ medecin["profession"] }}</span>
+       {% if medecin["doctolib"] != "" %}
+        <a href="https://www.doctolib.fr/{{ medecin['doctolib'] }}/booking" target="_blank">Prendre rendez-vous sur Doctolib</a>
+       {% endif %}
+      </h4>
+      <p>{{ medecin["bio"] }}</p>
+     </div>
+    </div>
+   </div>
+  {% endif %}
+ {% endfor %}
+{% endblock %}

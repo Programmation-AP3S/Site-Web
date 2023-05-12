@@ -1,0 +1,42 @@
+{% if not maison is defined %}
+ {% set maison = "all" %}
+{% endif %}
+<div>
+ <table id="medecins">
+  <thead>
+   <tr>
+    <th>Nom</th>
+    <th>Profession</th>
+    <th>Téléphone</th>
+    <th>Doctolib</th>
+   </tr>
+  </thead>
+  <tbody>
+   {% for medecin in liste_medecins %}
+    {% if medecin["maison"] == maison or maison == "all" %}
+     <tr>
+      <th>{{ medecin["nom"] }}</th>
+      <td>{{ medecin["profession"] }}</td>
+      <td>
+       <a href="tel:{{ medecin["telephone"] }}">{{ medecin["telephone"] }}</a>
+      </td>
+      <td>
+       {% if medecin["doctolib"] %}
+        <a href="https://www.doctolib.fr/{{ medecin['doctolib'] }}/booking" target="_blank">Doctolib</a>
+       {% else %}
+        Par téléphone
+       {% endif %}
+      </td>
+      <script type="application/json">
+       {
+        "nom": "{{ medecin["nom"] }}",
+        "telephone": "{{ medecin["telephone"] }}",
+        "doctolib": "{{ medecin["doctolib"] }}"
+       }
+      </script>
+     </tr>
+    {% endif %}
+   {% endfor %}
+  </tbody>
+ </table>
+</div>

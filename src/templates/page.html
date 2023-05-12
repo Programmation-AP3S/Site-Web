@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+ <html lang="fr">
+  <head>
+   <title>AP3S - {% block page_name required %}{% endblock %}</title>
+   <meta charset="utf-8" />
+
+   <base href="{{ site_url }}" />
+   <link rel="icon" href="public/favicon.ico" type="image/x-icon" /> 
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="public/ui/colors.css" />
+   <link rel="stylesheet" href="public/ui/fonts.css" />
+
+   <link rel="stylesheet" href="public/ui/display.css" />
+   <link rel="stylesheet" href="public/ui/header.css" />
+   <link rel="stylesheet" href="public/ui/components.css" />
+
+   <!-- JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.5/cash.min.js"></script>
+
+   <!-- OpenGraph -->
+   <meta property="og:title" content="{{ self.page_name() }}" />
+   <meta property="og:description" content="{% block page_description %}{% endblock %}" />
+   <meta property="og:site_name" content="Site web de l'AP3S - Association Pluriprofessionelle Saône Soins et Santé" />
+   <meta property="og:url" content="{{ site_url }}{% block page_canonical %}{% endblock %}" />
+   <meta property="og:locale" content="fr_FR" />
+   <meta property="og:type" content="website" />
+   <meta property="og:image" content="public/images/logo.png" />
+   <meta property="og:image" content="public/images/emplacement.png" />
+
+   <!-- Goggle -->
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "image": [
+        "public/images/logo.jpg",
+        "public/images/emplacement.png"
+       ],
+      "name": "AP3S - Association Pluriprofessionelle Saône Soins et Santé",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "37A Grande Rue",
+        "addressLocality": "Gergy",
+        "addressRegion": "71",
+        "postalCode": "71590",
+        "addressCountry": "FR"
+      },
+      "url": "{{ site_url }}",
+      "telephone": "WIP!",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday"
+          ],
+          "opens": "11:30",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "11:30",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "16:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "16:00",
+          "closes": "22:00"
+        }
+      ],
+    }
+    </script>
+
+    {% block head %}
+    {% endblock %}
+  </head>
+  <body>
+   <header>
+    <div>
+     <img src="public/images/logo.jpg" />
+     <h1>AP3S - Association Pluriprofessionelle<br />Saône Soins et Santé</h1>
+     <!--<h2>{{ self.page_name() }}</h2>-->
+    </div>
+    <nav>
+     <a href=""><span>Accueil</span></a>
+     <a href="msp/gergy.html"><span>MSP Gergy</span></a>
+     <a href="msp/verdun.html"><span>MSP Verdun</span></a>
+    </nav>
+    <nav>
+     {% for code, profession in professions.items() %}
+      <a href="professions/{{ code }}.html"><span>{{ profession["nom"] }}</span></a>
+     {% endfor %}
+    </nav>
+   </header>
+   <main>
+    {% block content %}
+    {% endblock %}
+   </main>
+  </body>
+ </html>
+<!-- END -->

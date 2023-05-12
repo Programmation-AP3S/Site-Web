@@ -1,0 +1,50 @@
+[generaliste]
+nom = "Médecins généralistes"
+codes = ["Médecin généraliste"]
+
+[infirmiere]
+nom = "Infirmières"
+codes = [
+    "Infirmière",
+    "IDE",
+    "Infirmière Libérale",
+    "Infirmier"
+]
+
+[infirmiere-asalee]
+nom = "Infirmières Asalée"
+codes = [
+    "Infirmière Asalée",
+    "IDE Asalée",
+]
+
+[sage-femme]
+nom = "Sage-Femme"
+codes = ["Sage-femme"]
+
+[kinesitherapeute]
+nom = "Kinésithérapeutes"
+codes = ["Kinésithérapeute"]
+
+[osteopathe]
+nom = "Ostéopathes"
+codes = ["Ostéopathe"]
+
+[orthophoniste]
+nom = "Orthophonistes"
+codes = ["Orthophoniste"]
+
+[psychologue]
+nom = "Psychologue"
+codes = ["Psychologue"]
+
+[podologue]
+nom = "Podologue"
+codes = ["Podologue"]
+
+[pharmacien]
+nom = "Pharmaciens"
+codes = [
+    "Pharmacien",
+    "Pharmacienne"
+]

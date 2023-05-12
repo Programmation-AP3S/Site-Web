@@ -1,0 +1,24 @@
+{% extends "templates/page.html" %}
+{% block page_name %}Accueil{% endblock %}
+{% block page_description %}Bienvenue sur le site de la maison de santé AP3S!{% endblock %}
+{% block page_canonical %}build/index.html{% endblock %}
+
+{% block head %}
+<script src="public/ui/src/home.js" defer></script>
+{% endblock %}
+
+{% block content %}
+<div class="horizontal-display background">
+ <div class="vertical-display">
+  <h3>Maison de santé de Gergy</h3>
+  <img src="public/images/msp/gergy.jpg" alt="Maison de santé de Gergy" />
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1051.5468279880665!2d4.947191552072274!3d46.87566884228694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2efb441babc81%3A0xb465ee3d418ccf03!2sMaison%20de%20sant%C3%A9%20pluriprofessionnelle%20AP3S!5e0!3m2!1sfr!2sfr!4v1683760868336!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+ <div class="vertical-display">
+  <h3>Maison de santé de Verdun sur le Doubs</h3>
+  <img src="public/images/msp/verdun.jpg" alt="Maison de santé de Verdun" />
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.603671070984!2d5.0244118769800465!3d46.89084503712862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2e94790d3743f%3A0x4200b34dc7d18fb2!2sMaison%20M%C3%A9dicale!5e0!3m2!1sfr!2sfr!4v1683760942857!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+</div>
+{% include "templates/table.html" %}
+{% endblock %}

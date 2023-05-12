@@ -1,0 +1,255 @@
+[mme_bignier_annie]
+nom = "Mme BIGNIER Annie"
+profession = "IDE Asalée"
+telephone = "07 88 05 05 83"
+doctolib = ""
+bio = "Infirmière libérale jusqu'en 2022 avant de devenir infirmière Asalée."
+maison = "verdun"
+
+[mme_boisselet_laurene]
+nom = "Mme BOISSELET Laurène"
+profession = "IDE"
+telephone = "06 81 23 20 05"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_boisson_elodie]
+nom = "Mme BOISSON Elodie"
+profession = "Infirmière"
+telephone = "06 09 93 11 51"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+["mme_bruneau_l'homel_morgane"]
+nom = "Mme BRUNEAU L'HOMEL Morgane"
+profession = "Sage-femme"
+telephone = "07 86 66 49 83"
+doctolib = "sage-femme/verdun-sur-le-doubs/morgane-bruneau-l-homel"
+bio = ""
+maison = "verdun"
+
+[dr_chambefort_cecile]
+nom = "Dr CHAMBEFORT Cécile"
+profession = "Médecin généraliste"
+telephone = "03 85 98 10 51"
+doctolib = "medecin-generaliste/gergy/cecile-chambefort"
+bio = ""
+maison = "gergy"
+
+[mme_changarnier_betty]
+nom = "Mme CHANGARNIER Betty"
+profession = "Infirmière Libérale"
+telephone = "06 81 23 20 05"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_chomeyrac_fanny]
+nom = "Mme CHOMEYRAC Fanny"
+profession = "Infirmière Libérale"
+telephone = "03 85 91 83 98"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_colin_philippe]
+nom = "Mr COLIN Philippe"
+profession = "Kinésithérapeute"
+telephone = "03 85 48 51 15"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_desboeufs_charline]
+nom = "Mme DESBOEUFS Charline"
+profession = "Kinésithérapeute"
+telephone = "03 85 91 78 73"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[dr_descharmes_benoit]
+nom = "Dr DESCHARMES Benoit"
+profession = "Médecin généraliste"
+telephone = "03 85 98 10 51"
+doctolib = "medecin-generaliste/sassenay/benoit-descharmes"
+bio = ""
+maison = "gergy"
+
+[dr_descharmes_carole]
+nom = "Dr DESCHARMES Carole"
+profession = "Médecin généraliste"
+telephone = "03 85 98 10 51"
+doctolib = "medecin-generaliste/sassenay/carole-descharmes"
+bio = ""
+maison = "gergy"
+
+[mme_dubrulle_laurenne]
+nom = "Mme DUBRULLE Laurenne"
+profession = "Orthophoniste"
+telephone = "06 01 81 93 82"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_duguey_emilie]
+nom = "Mme DUGUEY Emilie"
+profession = "Infirmière"
+telephone = "06 09 93 11 51"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_foiret_marine]
+nom = "Mme FOIRET Marine"
+profession = "Ostéopathe"
+telephone = "07 83 91 87 16"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_forget_coralie]
+nom = "Mme FORGET Coralie"
+profession = "Infirmière Asalée"
+telephone = "07 55 63 14 54"
+doctolib = ""
+bio = "Lorem Ipsum, dolores sit amet, juste un texte tres long pour tester les biographies et les photos de profil avec anticonstitutionellement mots."
+maison = "gergy"
+
+[mme_gaucher_martine]
+nom = "Mme GAUCHER Martine"
+profession = "Psychologue"
+telephone = "06 76 08 53 35"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mr_gay_philippe]
+nom = "Mr GAY Philippe"
+profession = "Ostéopathe"
+telephone = "03 85 91 78 73"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_gouhier_stephanie]
+nom = "Mme GOUHIER Stéphanie"
+profession = "Kinésithérapeute"
+telephone = "03 85 91 78 73"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_guillaume_helene]
+nom = "Mme GUILLAUME Héléne"
+profession = "Infirmière"
+telephone = "06 81 23 20 05"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_jankech_christelle]
+nom = "Mme JANKECH Christelle"
+profession = "Pharmacienne"
+telephone = "03 85 91 61 49"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_maisonneuve_sandrine]
+nom = "Mme MAISONNEUVE Sandrine"
+profession = "Orthophoniste"
+telephone = "03 85 96 32 82"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_manfroid_tifenn]
+nom = "Mr MANFROID Tifenn"
+profession = "Médecin généraliste"
+telephone = "03 85 91 51 44"
+doctolib = "medecin-generaliste/allerey-sur-saone/tifenn-manfroid"
+bio = ""
+maison = "verdun"
+
+[mr_maniere_florent]
+nom = "Mr MANIÈRE Florent"
+profession = "Ostéopathe"
+telephone = "06 48 95 80 32"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_michel_marie-francoise]
+nom = "Mme MICHEL Marie-Françoise"
+profession = "Infirmière"
+telephone = "06 20 69 43 97"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_schmid_chrystel]
+nom = "Mme SCHMID Chrystel"
+profession = "Pharmacienne"
+telephone = "03 85 91 61 49"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
+[mme_neiger_fanny]
+nom = "Mme NEIGER Fanny"
+profession = "Pharmacienne"
+telephone = "03 85 91 52 42"
+doctolib = ""
+bio = "Pharmacienne."
+maison = "verdun"
+
+[mme_pageaux_stephanie]
+nom = "Mme PAGEAUX Stéphanie"
+profession = "IDE"
+telephone = "06 81 23 20 05"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_pereira_manuel]
+nom = "Mr PEREIRA Manuel"
+profession = "Infirmier"
+telephone = "03 85 91 83 98"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_seguin_xavier]
+nom = "Mr SEGUIN Xavier"
+profession = "Pharmacien"
+telephone = "03 85 91 52 42"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mme_souciere_claire]
+nom = "Mme SOUCIERE Claire"
+profession = "Orthophoniste"
+telephone = "03 85 41 62 04"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_radreau_mathieu]
+nom = "Mr RADREAU Mathieu"
+profession = "Infirmier"
+telephone = "03 85 91 83 98"
+doctolib = ""
+bio = ""
+maison = "verdun"
+
+[mr_vu_cao_hoang]
+nom = "Mr VU CAO Hoang"
+profession = "Podologue"
+telephone = "06 15 90 50 85"
+doctolib = "pedicure-podologue/chalon-sur-saone/marcel-vu-cao-hoang"
+bio = ""
+maison = "verdun"

@@ -1,0 +1,9 @@
+{% extends "templates/page.html" %}
+{% block page_name %}MSP Verdun{% endblock %}
+{% block page_description %}Maison de santé pluriprofessionelle de Verdun{% endblock %}
+{% block page_canonical %}build/msp/verdun.html{% endblock %}
+
+{% block content %}
+ {% set maison = "verdun" %}
+ {% include "templates/table.html" %}
+{% endblock %}

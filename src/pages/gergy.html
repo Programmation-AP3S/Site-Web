@@ -1,0 +1,9 @@
+{% extends "templates/page.html" %}
+{% block page_name %}MSP Gergy{% endblock %}
+{% block page_description %}Maison de santé pluriprofessionelle de Gergy{% endblock %}
+{% block page_canonical %}build/msp/gergy.html{% endblock %}
+
+{% block content %}
+ {% set maison = "gergy" %}
+ {% include "templates/table.html" %}
+{% endblock %}

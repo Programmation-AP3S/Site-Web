@@ -1,0 +1,17 @@
+index = "home.html"
+
+[msp]
+gergy = "gergy.html"
+verdun = "verdun.html"
+
+[professions]
+generaliste = "professions/generaliste.html"
+infirmiere = "professions/infirmiere.html"
+infirmiere-asalee = "professions/infirmiere-asalee.html"
+kinesitherapeute = "professions/kinesitherapeute.html"
+osteopathe = "professions/osteopathe.html"
+orthophoniste = "professions/orthophoniste.html"
+sage-femme = "professions/sage-femme.html"
+psychologue = "professions/psychologue.html"
+podologue = "professions/podologue.html"
+pharmacien = "professions/pharmacien.html"
