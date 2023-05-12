@@ -17,6 +17,11 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: "Domine";
+    src: url("../fonts/Domine-SemiBold.ttf") format("truetype");
+}
+
 * {
     font-family: "Open Sans", sans-serif;
 }

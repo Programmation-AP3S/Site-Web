@@ -10,10 +10,10 @@
 {% endblock %}
 
 {% block content %}
- {% for medecin in liste_medecins %}
-  {% if medecin["profession"] in professions[code]["codes"] %}
-   <div id="biographies">
-    <div class="bio">
+ <div id="biographies">
+  {% for medecin in liste_medecins %}
+   {% if medecin["profession"] in professions[code]["codes"] %}
+    <div class="bio" id="{{ medecin['nom'] }}">
      <div>
       <img src="public/images/personnel/{{ medecin['nom'] }}.jpg" alt="Photo de {{ medecin['nom'] }}" />
      </div>
@@ -27,7 +27,7 @@
       <p>{{ medecin["bio"] }}</p>
      </div>
     </div>
-   </div>
-  {% endif %}
- {% endfor %}
+   {% endif %}
+  {% endfor %}
+ </div>
 {% endblock %}

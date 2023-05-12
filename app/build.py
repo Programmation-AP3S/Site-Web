@@ -12,6 +12,8 @@ from typing import Any
 import jinja2
 import tomllib
 
+from app.context import context as ctx
+
 jinja_env: jinja2.Environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader("src/"),
     autoescape=True,
@@ -19,9 +21,6 @@ jinja_env: jinja2.Environment = jinja2.Environment(
 
 with open("conf/context.toml", "rb") as f:
     context: dict[str, Any] = tomllib.load(f)
-
-with open("conf/professions.toml", "rb") as f:
-    professions: dict[str, Any] = tomllib.load(f)
 
 with open("conf/medecins.toml", "rb") as f:
     medecins: list[dict[str, Any]] = list(tomllib.load(f).values())
@@ -39,7 +38,7 @@ def render(location: str, file: str) -> str:
     """
     print(f"render::{location}/{file}")
     return jinja_env.get_template(file).render(
-        **context, liste_medecins=medecins, professions=professions
+        **context, liste_medecins=medecins, **ctx
     )
 
 

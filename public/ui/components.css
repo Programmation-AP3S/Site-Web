@@ -25,15 +25,24 @@ th {
     padding: 5px;
 }
 
-thead > tr {
+thead tr {
     background-color: #dee2e6;
 }
 
-tbody > tr:nth-child(even) {
+tbody tr {
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+tbody tr:hover {
+    filter: brightness(70%);
+}
+
+tbody tr:nth-child(even) {
     background-color: #dee2e6;
 }
 
-tbody > tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background-color: var(--color-fg);
 }
 
@@ -53,6 +62,13 @@ a[target="_blank"]::after {
     text-decoration: none;
 }
 
+#biographies {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
 #biographies > .bio {
     display: flex;
     gap: 30px;
@@ -61,11 +77,11 @@ a[target="_blank"]::after {
     margin-right: 100px;
 }
 
-#biographies:nth-child(odd) > .bio {
+#biographies > .bio:nth-child(odd) {
     flex-direction: row;
 }
 
-#biographies:nth-child(even) > .bio {
+#biographies > .bio:nth-child(even) {
     flex-direction: row-reverse;
 }
 

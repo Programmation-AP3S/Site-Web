@@ -65,7 +65,8 @@ header > div {
 header > div > h1 {
     font-size: 20px;
     text-align: center;
-    font-weight: 300;
+    font-family: "Domine", serif;
+    font-weight: 600;
 }
 
 header > div > img {

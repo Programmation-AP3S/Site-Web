@@ -1,2 +1,2 @@
-site_url = "http://192.168.1.73:8080/build/"
+site_url = "http://localhost:8080/"
 # Wow, cool, a local IP leaked!

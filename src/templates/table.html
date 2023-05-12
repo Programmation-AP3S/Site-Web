@@ -1,6 +1,7 @@
 {% if not maison is defined %}
  {% set maison = "all" %}
 {% endif %}
+<script src="public/ui/src/table.js"></script>
 <div>
  <table id="medecins">
   <thead>
@@ -14,7 +15,7 @@
   <tbody>
    {% for medecin in liste_medecins %}
     {% if medecin["maison"] == maison or maison == "all" %}
-     <tr>
+     <tr data-href="professions/{{ profession_of[medecin['profession']] }}.html#{{ medecin['nom'] }}">
       <th>{{ medecin["nom"] }}</th>
       <td>{{ medecin["profession"] }}</td>
       <td>
