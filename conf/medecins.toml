@@ -1,3 +1,11 @@
+[mme_baveux_laura]
+nom = "Mme BAVEUX Laura"
+profession = "Infirmière"
+telephone = "06 09 93 11 51"
+doctolib = ""
+bio = ""
+maison = "gergy"
+
 [mme_bignier_annie]
 nom = "Mme BIGNIER Annie"
 profession = "IDE Asalée"
@@ -92,22 +100,6 @@ Le médecin généraliste reçoit les enfants et les adultes pour tous types de 
 Pour toutes consultations de médecine esthétique, merci de contacter directement le secrétariat de 8h à 12h au 03 85 98 10 51."""
 maison = "gergy"
 
-[mme_dubrulle_laurenne]
-nom = "Mme DUBRULLE Laurenne"
-profession = "Orthophoniste"
-telephone = "06 01 81 93 82"
-doctolib = ""
-bio = ""
-maison = "gergy"
-
-[mme_duguey_emilie]
-nom = "Mme DUGUEY Emilie"
-profession = "Infirmière"
-telephone = "06 09 93 11 51"
-doctolib = ""
-bio = ""
-maison = "gergy"
-
 [mme_foiret_marine]
 nom = "Mme FOIRET Marine"
 profession = "Ostéopathe"
@@ -126,7 +118,7 @@ maison = "gergy"
 
 [mme_gaucher_martine]
 nom = "Mme GAUCHER Martine"
-profession = "Psychologue"
+profession = "Conseillère Conjugale"
 telephone = "06 76 08 53 35"
 doctolib = ""
 bio = ""
@@ -147,14 +139,6 @@ telephone = "03 85 91 78 73"
 doctolib = ""
 bio = ""
 maison = "gergy"
-
-[mme_guillaume_helene]
-nom = "Mme GUILLAUME Héléne"
-profession = "Infirmière"
-telephone = "06 81 23 20 05"
-doctolib = ""
-bio = ""
-maison = "verdun"
 
 [mme_jankech_christelle]
 nom = "Mme JANKECH Christelle"
@@ -195,10 +179,10 @@ doctolib = ""
 bio = ""
 maison = "verdun"
 
-[mme_michel_marie-francoise]
-nom = "Mme MICHEL Marie-Françoise"
-profession = "Infirmière"
-telephone = "06 20 69 43 97"
+[mme_poncet_annabelle]
+nom = "Mme PONCET Annabelle"
+profession = "Diététicienne"
+telephone = "06 89 82 20 12"
 doctolib = ""
 bio = ""
 maison = "gergy"
