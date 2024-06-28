@@ -78,3 +78,15 @@ main > * {
         width: 100%;
     }
 }
+
+@media (width < 1000px) {
+    body {
+        zoom: 125%;
+    }
+}
+
+@media (width < 500px) {
+    body {
+        zoom: 150%;
+    }
+}
