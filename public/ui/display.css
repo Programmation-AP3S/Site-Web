@@ -40,7 +40,7 @@ main > * {
     flex-direction: row;
     gap: 15px;
 
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     border-bottom: 1px solid gray;
@@ -64,6 +64,8 @@ main > * {
 @media (width < 1000px) {
     .post, .post:nth-child(even) {
         flex-direction: column;
+
+        align-items: center;
     }
 
     .post > img {

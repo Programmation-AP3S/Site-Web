@@ -3,6 +3,6 @@ titre = "Nouveau site Web !"
 contenu = """
 Nous avons un nouveau site Web !
 
-http://maisondesante-ap3s.fr/
+<a href="https://maisondesante-ap3s.fr/">https://maisondesante-ap3s.fr/</a>
 """
 image="logo.jpg"
