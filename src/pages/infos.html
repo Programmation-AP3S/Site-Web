@@ -1,0 +1,23 @@
+{% extends "templates/page.html" %}
+{% block page_name %}Informations{% endblock %}
+{% block page_description %}Informations sur l'actualité de la maison de santé{% endblock %}
+{% block page_canonical %}build/infos.html{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+ {% for key, value in posts.items() %}
+  <article class="post">
+   <img src="/public/images/posts/{{ value.image }}" />
+
+   <div>
+    <h3>{{ value.titre }}</h3>
+
+    <p>
+        {{ value.contenu.replace("\n", "<br />") | safe }}
+    </p>
+   </div>
+  </article>
+ {% endfor %}
+{% endblock %}

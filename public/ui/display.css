@@ -34,3 +34,45 @@ main > * {
 .vertical-display > img {
     width: 300px;
 }
+
+.post {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid gray;
+}
+
+.post:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.post > img {
+    object-fit: scale-down;
+    width: calc(100% / 3);
+    min-width: calc(100% / 3);
+}
+
+.post > div {
+    flex-grow: 1;
+    width: 100%;
+}
+
+@media (width < 1000px) {
+    .post, .post:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .post > img {
+        width: 50%;
+    }
+}
+
+@media (width < 500px) {
+    .post > img {
+        width: 100%;
+    }
+}

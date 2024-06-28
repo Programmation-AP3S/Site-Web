@@ -1,5 +1,8 @@
 index = "home.html"
 
+[infos]
+infos = "infos.html"
+
 [msp]
 gergy = "gergy.html"
 verdun = "verdun.html"
